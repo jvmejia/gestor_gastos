@@ -112,3 +112,19 @@ ul li:last-child {
     color: #fff;
 
 }
+
+.imagen-borrar {
+    background-image: url(../img/delete.svg); /* Cambia a la ruta correcta */
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    width: 64px; /* Ajusta el ancho según el tamaño de la imagen */
+    height: 64px;
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    transition: opacity 0.3s; /* Transición para efectos */
+    display: inline-block;
+    background-color: transparent;
+}
+
+.imagen-borrar:hover {
+    opacity: 0.8; /* Cambia la opacidad al pasar el mouse */
+}
